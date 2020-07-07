@@ -1,0 +1,45 @@
+* {
+    font-family: monospace;
+    text-align: center;
+    
+    color: grey;
+    padding: 0px;
+    margin: 0;
+  }
+
+  html, body {
+      height: 100%;
+  }
+
+  .page_container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100%;
+  }
+
+  .header {
+    background-color: white; 
+    display: flex;
+    place-content: space-around;
+    font-size: 44px;
+  }
+
+  .main {
+    background-color: lightgrey;
+    font-size: 32px;
+    place-content: left;
+  }
+
+  .footer {
+    background-color: darkslategray;
+    display: flex;
+    place-content:  space-around;
+    font-size: 44px; 
+  }
+
+  /* An 'F' in Fumbles? Bobby, you speak Fumbles.
+
+
+
+
+  */
