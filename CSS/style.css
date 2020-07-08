@@ -1,45 +1,142 @@
 * {
-    font-family: monospace;
-    text-align: center;
-    
-    color: grey;
-    padding: 0px;
-    margin: 0;
-  }
+  font-family: monospace;
+  color: grey;
+  padding: 0px;
+  margin: 0;
+  font-size:100%; 
+  line-height:1;
+}
 
-  html, body {
-      height: 100%;
-  }
-
-  .page_container {
-    display: grid;
-    grid-template-rows: auto 1fr auto;
+html, body {
     height: 100%;
-  }
+    overflow-y: hidden;
+}
 
-  .header {
-    background-color: white; 
-    display: flex;
-    place-content: space-around;
-    font-size: 44px;
-  }
+.page_container {
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  height: 100%;
+}
 
-  .main {
-    background-color: lightgrey;
-    font-size: 32px;
-    place-content: left;
-  }
+.header {
+  background-color: white; 
+  display: flex;
+  font-size: 3vmax;
+  width: 100%;
+}
 
-  .footer {
-    background-color: darkslategray;
-    display: flex;
-    place-content:  space-around;
-    font-size: 44px; 
-  }
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 100%;
+  font-size: 3vmax;
+  display: flex;
+  justify-content: space-around;
+  
+  
+}
 
-  /* An 'F' in Fumbles? Bobby, you speak Fumbles.
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  /*transition: 0.3s;*/
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  /*background-color: #ccc;*/
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  border: 1px solid #ccc;
+  border-top: none;
+}
 
 
 
 
-  */
+
+
+
+
+
+.mission {
+  height: 120px;
+  width: 100%;
+  background-color: lightgrey;
+  display: flex;
+  place-content: center;
+  text-align: center;
+}
+
+.mission_statement {
+  font-size: 2.5vmax;
+}
+
+.main {
+  background-color: lightgrey;
+  height: 100%;
+}
+
+.main_axon4d {
+  font-size: 1.8vmax;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 100%;
+}
+
+.main_axon4d_leftcontainer {
+  height: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 
+    33% 1fr 33%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main_axon4d_left_title {
+  font-size: 1.5vmax;
+  text-transform: uppercase;
+  text-align: bottom;
+  
+}
+
+.main_axon4d_left_subpoints {
+  font-size: 1.25vmax;
+  text-transform: uppercase;
+}
+
+.main_products {
+  /* +++ NO CARRIER */
+  
+}
+
+.main_people {
+  
+}
+
+.main_contact {
+  
+}
+
+.footer {
+  background-color: darkslategray;
+  display: flex;
+  place-content:  space-around;
+  font-size: 1.5vmax;
+}
+

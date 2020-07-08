@@ -1,27 +1,84 @@
 <html>
     <head>
-
+        <script src="jquery-3.4.0.min.js"></script>
+        <script src="scripts/navbar.js"></script>
         <link rel="stylesheet" href="css\style.css">
     </head>
 
     <body>
         <div class="page_container">
             <div class="header">
-                <div>Axon4D</div>
-                <div>Products</div>
-                <div>People</div>
-                <div>Contact Us</div>
+                <div class="tab">
+                    <button class="tablinks" onclick="changeNav(event, 'Axon4D')">Axon4D</button>
+                    <button class="tablinks" onclick="changeNav(event, 'Products')">Products</button>
+                    <button class="tablinks" onclick="changeNav(event, 'People')">People</button>
+                    <button class="tablinks" onclick="changeNav(event, 'Contact')">Contact</button>
+                </div>
+            </div>
+            <div class="mission">
+                <div class="mission_statement">
+                    <span>Axon4D is at the center of patented technology designed to deliver automated asset integrity verification to industry around the globe.</span>
+                </div>
             </div>
             <div class="main">
-                <div>Axon4D is at the center of patented technology designed to deliver automated asset integrity verification to industries around the globe.</div>
-                <br>
-                <div>
-                    <ul>We give your assets a heartbeat to deliver analysis over time:</ul>
-                        <li> allowing agents and clients to react to trends </li>
-                        <li> make strategic and cost-effective decisions</li>
-                        <li> reduce and eliminate risk from avoidable integrity complications</li>
-
+                <div class="tabcontent" id="Axon4D">
+                    <div class="main_axon4d">
+                        <div class="main_axon4d_leftcontainer">
+                            <div class="main_axon4d_left_title">
+                                We give your assets a heartbeat and deliver analysis over time, enabling remote inspection with precision accuracy.
+                            </div>
+                            <div>
+                                <hr>
+                            </div>
+                            <div class="main_axon4d_left_subpoints">
+                                <div> agents and clients to react to trends</div>
+                                <div> strategic and cost-effective decisions</div>
+                                <div> elimination of risk from avoidable integrity complications</div>
+                            </div>
+                        </div>
+                        <div class="main_axon4d_rightcontainer">
+                            <div class="main_axon4d_right_content">
+                                <div>
+                                    1
+                                </div>
+                                <div>
+                                    2
+                                </div>
+                                <div>
+                                    3
+                                </div>
+                                <div>
+                                    4
+                                </div>
+                            </div>
+                            <div class="main_axon4d_right_chooser">
+                                <div>
+                                    1
+                                </div>
+                                <div>
+                                    2
+                                </div>
+                                <div>
+                                    3
+                                </div>
+                                <div>
+                                    4
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <div class="main_axon4d tabcontent" id="Products">
+                    product
+                </div>
+                <div class="main_axon4d tabcontent" id="People">
+                    people
+                </div>
+                <div class="main_axon4d tabcontent" id="Contact">
+                    contact
+                </div>
+                
+                
             </div>
             <div class="footer">
                 <div>Copyright</div>
