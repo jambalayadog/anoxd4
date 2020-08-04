@@ -1,6 +1,5 @@
 <html>
     <head>
-        <script src="jquery-3.4.0.min.js"></script>
         <script src="scripts/navbar.js"></script>
         <link rel="stylesheet" href="css\style.css">
     </head>
@@ -9,85 +8,273 @@
         <div class="page_container">
             <div class="header">
                 <div class="tab">
-                    <button class="tablinks" onclick="changeNav(event, 'Axon4D')">Axon4D</button>
-                    <button class="tablinks" onclick="changeNav(event, 'Products')">Products</button>
-                    <button class="tablinks" onclick="changeNav(event, 'People')">People</button>
-                    <button class="tablinks" onclick="changeNav(event, 'Contact')">Contact</button>
+                    <button class="tablinks active" onclick="changeNav(event, 'Axon4D')">Axon4D</button>
+                    <button class="tablinks" onclick="changeNav(event, 'Mission')">Mission</button>
+                    <button class="tablinks" onclick="changeNav(event, 'Services')">Services</button>
+                    <button class="tablinks" onclick="changeNav(event, 'OurTeam')">Team</button>
+                    <button class="tablinks" onclick="changeNav(event, 'Contact')">Architect</button>
+                    
                 </div>
+                <div class="fadingeffect"></div>
             </div>
-            <div class="mission">
+            <!--<div class="mission">
                 <div class="mission_statement">
-                    <span>Axon4D is at the center of patented technology designed to deliver automated asset integrity verification to industry around the globe.</span>
+                    <span>Axon4D is at the center of patented technology designed to revolutionize and automate asset integrity verification for industries across our planet.</span>
                 </div>
-            </div>
+            </div>-->
             <div class="main">
-                <div class="tabcontent" id="Axon4D">
-                    <div class="main_axon4d">
-                        <div class="main_axon4d_leftcontainer">
-                            <div class="main_axon4d_left_title">
-                                We give your assets a heartbeat and deliver analysis over time, enabling remote inspection with precision accuracy.
-                            </div>
-                            <div>
-                                <hr>
-                            </div>
-                            <div class="main_axon4d_left_subpoints">
-                                <div> agents and clients to react to trends</div>
-                                <div> strategic and cost-effective decisions</div>
-                                <div> elimination of risk from avoidable integrity complications</div>
-                            </div>
+                <div class="tabcontent" id="Axon4D" style="display:block">
+                    <div class="axon4d_main">
+                        <div class="axon4d_main_offer">
+                            Solutions consultation
                         </div>
-                        <div class="main_axon4d_rightcontainer">
-                            <div class="main_axon4d_right_content">
-                                <div>
-                                    1
-                                </div>
-                                <div>
-                                    2
-                                </div>
-                                <div>
-                                    3
-                                </div>
-                                <div>
-                                    4
-                                </div>
-                            </div>
-                            <div class="main_axon4d_right_chooser">
-                                <div>
-                                    1
-                                </div>
-                                <div>
-                                    2
-                                </div>
-                                <div>
-                                    3
-                                </div>
-                                <div>
-                                    4
-                                </div>
-                            </div>
+                        <div class="axon4d_main_why">
+                            We have diverse industry experience.  
+                        </div>
+                        <div class="axon4d_main_what">
+                            We will help architect a solution.
                         </div>
                     </div>
                 </div>
-                <div class="main_axon4d tabcontent" id="Products">
-                    product
+                <div class="tabcontent" id="Mission" style="display:none">
+                    <div class="axon4d_mission">
+                        <div class="axon4d_mission_why">
+                            The future is coming.  
+                        </div>
+                        <div class="axon4d_mission_what">
+                            The ability to act on it is here.  
+                        </div>
+                        <div class="axon4d_mission_how">
+                            Axon4D is at the heart of bringing solutions to you.
+                        </div>
+                    </div>
                 </div>
-                <div class="main_axon4d tabcontent" id="People">
-                    people
+                <div class="tabcontent" id="Services" style="display:none">
+                    <div class="axon4d_services_container">
+                        <div class="axon4d_services_header">
+                            Were you ready for 2020?  How about 2030?
+                        </div>
+                        <div class="axon4d_services">
+                            <div class="axon4d_services_service">
+                                <div class="axon4d_services_servicetitle">Consultation</div>
+                                <div class="axon4d_services_serviceimage">image</div>
+                                <div class="axon4d_services_servicedescription">Axon4D Contacts - lorem ipsum lorem ipsum lorum ipsum lorem ipsum lorem ipsum lorum ipsum</div>
+                            </div>
+                            <div class="axon4d_services_service">
+                                <div class="axon4d_services_servicetitle">Inspection</div>
+                                <div class="axon4d_services_serviceimage">image</div>
+                                <div class="axon4d_services_servicedescription">Axon4D Contacts - lorem ipsum lorem ipsum lorum ipsum lorem ipsum lorem ipsum lorum ipsum</div>
+                            </div>
+                            <div class="axon4d_services_service">
+                                <div class="axon4d_services_servicetitle">Engineering</div>
+                                <div class="axon4d_services_serviceimage">image</div>
+                                <div class="axon4d_services_servicedescription">Axon4D Contacts - lorem ipsum lorem ipsum lorum ipsum lorem ipsum lorem ipsum lorum ipsum</div>
+                            </div>
+                            <div class="axon4d_services_service">
+                                <div class="axon4d_services_servicetitle">Patent Development</div>
+                                <div class="axon4d_services_serviceimage">image</div>
+                                <div class="axon4d_services_servicedescription">Axon4D Contacts - lorem ipsum lorem ipsum lorum ipsum lorem ipsum lorem ipsum lorum ipsum</div>
+                            </div>
+                            <div class="axon4d_services_service">
+                                <div class="axon4d_services_servicetitle">Business Operations</div>
+                                <div class="axon4d_services_serviceimage">image</div>
+                                <div class="axon4d_services_servicedescription">HCG DMA, Oplii - lorem ipsum lorem ipsum lorum ipsum lorem ipsum lorem ipsum lorum ipsum</div>
+                            </div>
+                            <div class="axon4d_services_service">
+                                <div class="axon4d_services_servicetitle">Legal Services</div>
+                                <div class="axon4d_services_serviceimage">image</div>
+                                <div class="axon4d_services_servicedescription">Inhaus - lorem ipsum lorem ipsum lorum ipsum lorem ipsum lorem ipsum lorum ipsum</div>
+                            </div>
+                        </div>
+                        <div class="axon4d_services_header">
+                            Contact us so we can create and deliver a solution together.
+                        </div>
+                    </div>
                 </div>
-                <div class="main_axon4d tabcontent" id="Contact">
-                    contact
+                <div class="tabcontent" id="OurTeam" style="display:none">
+                    <div class="axon4d_ourteam_container">
+                        <div class="axon4d_ourteam_statement">
+                            <div>
+                                Our team of experts comes from a diverse set of industries.
+                            </div>
+                            <div>
+                                We are poised to help architect solutions for your needs.
+                            </div>
+                        </div>
+                        <div class="axon4d_ourteam">
+                            <div class="axon4d_ourteam_member">
+                                <div class="axon4d_ourteam_membername">Jared Fisk</div>
+                                <div class="axon4d_ourteam_memberimage">Image</div>                                
+                                <div>Director Of Innovation</div>
+                                <div class="axon4d_ourteam_memberdescription">lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </div>
+                            </div>
+                            <div class="axon4d_ourteam_member">
+                                <div class="axon4d_ourteam_membername">Chris Johnson</div>
+                                <div class="axon4d_ourteam_memberimage">Image</div>
+                                <div>Engineering Technologist</div>
+                                <div class="axon4d_ourteam_memberdescription">lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </div>
+                            </div>
+                            <div class="axon4d_ourteam_member">
+                                <div class="axon4d_ourteam_membername">Kean Barton</div>
+                                <div class="axon4d_ourteam_memberimage">Image</div>
+                                <div>Engineering Technologist</div>
+                                <div class="axon4d_ourteam_memberdescription">lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </div>                                
+                            </div>
+                            <div class="axon4d_ourteam_member">
+                                <div class="axon4d_ourteam_membername">Jordan Watt</div>
+                                <div class="axon4d_ourteam_memberimage">Image</div>
+                                <div>Director Of Operations</div>
+                                <div class="axon4d_ourteam_memberdescription">lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </div>   
+                            </div>
+                            <div class="axon4d_ourteam_member">
+                                <div class="axon4d_ourteam_membername">Chan</div>
+                                <div class="axon4d_ourteam_memberimage">Image</div>
+                                <div>Senior Engineer</div>
+                                <div class="axon4d_ourteam_memberdescription">lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </div>
+                            </div>
+                            <div class="axon4d_ourteam_member">
+                                <div class="axon4d_ourteam_membername">Thomas</div>
+                                <div class="axon4d_ourteam_memberimage">Image</div>
+                                <div>Laser Scan Technologist</div>
+                                <div class="axon4d_ourteam_memberdescription">lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </div>
+                            </div>
+                            <div class="axon4d_ourteam_member">
+                                <div class="axon4d_ourteam_membername">Ken</div>
+                                <div class="axon4d_ourteam_memberimage">Image</div>
+                                <div>Software Architect</div>
+                                <div class="axon4d_ourteam_memberdescription">lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </div>
+                            </div>
+                            <div class="axon4d_ourteam_member">
+                                <div class="axon4d_ourteam_membername">Jeff Piercy</div>
+                                <div class="axon4d_ourteam_memberimage">Image</div>
+                                <div>CEO & Legal</div>
+                                <div class="axon4d_ourteam_memberdescription">lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </div>
+                            </div>
+                            <div class="axon4d_ourteam_member">
+                                <div class="axon4d_ourteam_membername">Join The Team</div>
+                                <div class="axon4d_ourteam_memberimage">Image</div>
+                                <div>?</div>
+                                <div class="axon4d_ourteam_memberdescription">Bring your services to Axon4D.  We are always happy to build our family.</div>
+                            </div>
+                        </div>
+                        <div></div>
+                    </div>
                 </div>
-                
-                
+                <div class="tabcontent" id="Contact" style="display:none">
+                    <div class="container">
+                        <div class="axon4d_contact_header">
+                            Get ahead of the risk.  Get ahead of the competition.
+                        </div>
+                        <div class="axon4d_contact_body">
+                            <form action="/action_page.php">
+                                <label for="fname">First Name</label>
+                                <input type="text" id="fname" name="firstname" placeholder="Your name...">
+
+                                <label for="lname">Last Name</label>
+                                <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+                                
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="Subject line goes here...">
+                                
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" placeholder="Message goes here..." style="height:170px"></textarea>
+                                
+                                <input type="submit" value="Submit">
+                            </form>
+                        </div>
+                        <div class="axon4d_contact_footer">
+                            Contact us to develop a specialized solution for your business.
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="footer">
-                <div>Copyright</div>
-                <div>LinkedIn</div>
-                <div>Twitter</div>
-                <div>E-Mail</div>
+                <div class="footer_layout">
+                    <div></div>
+                    <div>Copyright</div>
+                    <div>LinkedIn</div>
+                    <div>E-Mail</div>
+                </div>
             </div>
         </div>
 
-    </body>
+        <?php
+        if (isset($_POST['Email'])) {
+        
+            // EDIT THE 2 LINES BELOW AS REQUIRED
+            $email_to = "you@yourdomain.com";
+            $email_subject = "New form submissions";
+        
+            function problem($error)
+            {
+                echo "We are very sorry, but there were error(s) found with the form you submitted. ";
+                echo "These errors appear below.<br><br>";
+                echo $error . "<br><br>";
+                echo "Please go back and fix these errors.<br><br>";
+                die();
+            }
+        
+            // validation expected data exists
+            if (
+                !isset($_POST['Name']) ||
+                !isset($_POST['Email']) ||
+                !isset($_POST['Message'])
+            ) {
+                problem('We are sorry, but there appears to be a problem with the form you submitted.');
+            }
+        
+            $name = $_POST['Name']; // required
+            $email = $_POST['Email']; // required
+            $message = $_POST['Message']; // required
+        
+            $error_message = "";
+            $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
+        
+            if (!preg_match($email_exp, $email)) {
+                $error_message .= 'The Email address you entered does not appear to be valid.<br>';
+            }
+        
+            $string_exp = "/^[A-Za-z .'-]+$/";
+        
+            if (!preg_match($string_exp, $name)) {
+                $error_message .= 'The Name you entered does not appear to be valid.<br>';
+            }
+        
+            if (strlen($message) < 2) {
+                $error_message .= 'The Message you entered do not appear to be valid.<br>';
+            }
+        
+            if (strlen($error_message) > 0) {
+                problem($error_message);
+            }
+        
+            $email_message = "Form details below.\n\n";
+        
+            function clean_string($string)
+            {
+                $bad = array("content-type", "bcc:", "to:", "cc:", "href");
+                return str_replace($bad, "", $string);
+            }
+        
+            $email_message .= "Name: " . clean_string($name) . "\n";
+            $email_message .= "Email: " . clean_string($email) . "\n";
+            $email_message .= "Message: " . clean_string($message) . "\n";
+        
+            // create email headers
+            $headers = 'From: ' . $email . "\r\n" .
+                'Reply-To: ' . $email . "\r\n" .
+                'X-Mailer: PHP/' . phpversion();
+            @mail($email_to, $email_subject, $email_message, $headers);
+        ?>
+        
+            <!-- include your success message below -->
+        
+            Thank you for contacting us. We will be in touch with you very soon.
+        
+        <?php
+        }
+        ?>
 
+
+    </body>
 </html>
