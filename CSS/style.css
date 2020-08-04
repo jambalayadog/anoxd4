@@ -103,7 +103,7 @@ html, body {
   grid-template-rows: auto 1fr auto;
   height: 100%;
 }
-.axon4d_services_header { font-size:3vmin; }
+.axon4d_services_header { font-size:3vmin; padding:10px; }
 .axon4d_services {
   display: flex;
   flex-wrap: wrap;
@@ -118,7 +118,7 @@ html, body {
   text-align: center;
 }
 .axon4d_services_servicetitle { font-size: 3.0vmin; color: rgb(240, 240, 200); }
-.axon4d_services_serviceimage { height: 150px; font-size: 2.5vmin; }
+.axon4d_services_serviceimage { height: 100px; font-size: 2.5vmin; }
 .axon4d_services_servicedescription { font-size: 2.5vmin; }
 
 .axon4d_ourteam_container {
@@ -128,7 +128,7 @@ html, body {
 }
 .axon4d_ourteam_statement {
   text-align:center;
-  margin: 50px 20px 0px 20px;
+  margin: 10px 20px 0px 20px;
   font-size: 3vmin;
 }
 .axon4d_ourteam {
@@ -145,13 +145,13 @@ html, body {
   font-size: 2.4vmin;
 }
 .axon4d_ourteam_membername { font-size: 3vmin; color: rgb(240, 240, 200); }
-.axon4d_ourteam_memberimage { height: 150px; }
+.axon4d_ourteam_memberimage { height: 120px; font-size: 8vmin;}
 .axon4d_ourteam_memberdescription { font-size: 2.5vmin; }
 
 
 .axon4d_contact_header { font-size:3vmin; }
 .axon4d_contact_body { margin: 5% 0% 5% 0%}
-.axon4d_contact_footer { font-size: 3vmin; color: rgb(240, 240, 200); }
+.axon4d_contact_footer { font-size: 3vmin; color: rgb(240, 240, 200); text-align: center;}
 
 .footer {
   background-color: darkslategray;
@@ -175,6 +175,7 @@ input[type=text], select, textarea {
   margin-bottom: 16px;
   resize: vertical;
   background-color: lightgray;
+  color: darkslategray;
 }
 
 input[type=submit] {
